@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Santiago Mejia Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body,h1,h2,h3,h4,h5,h6 {
+          font-family: "Raleway", sans-serif;
+          text-align: justify;
+          }
+    </style>
+</head>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <img src="img/photo.png" style="width:45%;" class="w3-round"><br><br>
+    <h4><b>Santiago Mejia</b></h4>
+    <p class="w3-text-grey">Template by W3.CSS</p>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PORTFOLIO</a> 
+    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a> 
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a>
+  </div>
+  <div class="w3-panel w3-large">
+    <a href="http://santiagomejiacurriculum.atwebpages.com/" target="_blank"><i class="fa fa-file w3-hover-opacity"></i></a>
+    <a href="https://codepen.io/santiagomejiad/pens/showcase" target="_blank"><i class="fa fa-codepen w3-hover-opacity"></i></a>
+    <a href="https://github.com/SantyM19?tab=repositories" target="_blank"><i class="fa fa-github w3-hover-opacity"></i></a>
+    <a href="https://www.linkedin.com/in/duvan-santiago-mejia-duran-15929a182/" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+  </div>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+  <!-- Header -->
+  <header id="portfolio">
+    <a href="#"><img src="img/photo.png" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container">
+    <h1><b>My Portfolio</b></h1>
+    <div class="w3-section w3-bottombar w3-padding-16">
+      <span class="w3-margin-right">Filter:</span> 
+      <button class="w3-button w3-black">ALL</button>
+      <button class="w3-button w3-white"><i class="fa fa-cogs w3-margin-right"></i>Mechatronics Engineering</button>
+      <button class="w3-button w3-white w3-hide-small"><i class="fa fa-leaf w3-margin-right"></i>Green Engineering</button>
+      <button class="w3-button w3-white w3-hide-small"><i class="fa fa-laptop w3-margin-right"></i>Software Development</button>
+      <button class="w3-button w3-white w3-hide-small"><i class="fa fa-photo w3-margin-right"></i>Photos</button>
+      <button class="w3-button w3-white w3-hide-small"><i class="fa fa-map-pin w3-margin-right"></i>Art</button>
+    </div>
+    </div>
+  </header>
+  
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="img/img1.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>systems Control MATLAB</b></p>
+        <p>I worked at the university in many control jobs under Matlab, developing multiple intelligent systems to control most of its parameters.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="img/img2.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Processing Data MATLAB</b></p>
+        <p>Develop multiple applications under the software to capture, pre-process, and process environmental data by identifying identifiers, including images and sounds..</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="img/img3.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Raspberry PI</b></p>
+        <p>
+          Design and implement a data analysis project under python technology using Raspberry PI hardware in order to equip the robot with movement.</p>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="img/img4.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Robotics with Arduino </b></p>
+        <p>Multiple projects with Arduino, where the most outstanding was teaching technology to tenth grade students in a school, developing more than 10 projects with them.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="img/img5.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Programing Mikro Chip PIC</b></p>
+        <p>Development of multiple small electromechanical systems, in order to recreate small intelligent projects, in areas such as home automation, automation, robotics, among others.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="img/img6.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Development POO Java</b></p>
+        <p>Knowledge development based on POO objects under Java and JavaScript programming languages.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Third Photo Grid-->
+
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="img/img7.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Renewable Energy <br>
+          Photovoltaic systems</b></p>
+        <p>Evaluation of photovoltaic systems for possible implementation in places, taking into account parameters of the environment and location.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="img/img8.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Renewable Energy <br>
+          Solar Collectors</b></p>
+        <p>Research and development of projects with solar collector technologies, in order to find the best technology and its possible application.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="img/img9.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Renewable Energy <br>
+          Wind Power</b></p>
+        <p>Assessment of the environment for the possible application of wind energy systems.</p>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Fourth Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="img/img10.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b> Energy Efficiency <br>
+          Energy Audits </b></p>
+        <p>Assessment of energy consumption in sectors, design and implementation of energy saving policies.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="img/img11.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Energy Efficiency <br>
+          Development Energy Plan</b></p>
+        <p>Development energy plan for devices and energy consumption systems, under the best available technologies.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="img/img12.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Projects Management</b></p>
+        <p>Project management using methods such as kanban, Agile and Scrum.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Fifth Photo Grid-->
+
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="img/img13.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Development Web Front End <br>
+          HTML, CSS, JS and SASS</b></p>
+        <p>Front-end development under the HTML tag language, CSS cascading technology, and JavaScript programming language, using SASS preprocessor.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="img/img14.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Development web Front End<br>
+          Framework Bootstrap</b></p>
+        <p>Using Bootstrap framework for Front-end development and email.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="img/img15.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b> Development web Front End<br>
+          Frameworks Foundation</b></p>
+        <p>Use Foundation Framework for front-end development, with flexgrid and grid technologies.</p>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Sixth Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="img/img16.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b> Development web Front End <br>
+          Framework Materialize and W3</b></p>
+        <p>Working hand in hand with materialize CSS and W3 templates, thus seeking new design visions.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="img/img17.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Data Bases<br>
+          SQL, MySQL, PostgreSQL, Oracle and Server</b></p>
+        <p>Applying optimization and maintenance in databases, in order to avoid errors and improve response times.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="img/img18.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Docker Tecnology</b></p>
+        <p>Basic knowledge in Docker technology, container deployment and administration.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+
+  <!-- Images of Me -->
+  <div class="w3-row-padding w3-padding-16" id="about">
+    <div class="w3-col m6">
+      <img src="img/universidad.png" alt="Me" style="width:100%">
+    </div>
+    <div class="w3-col m6">
+      <img src="img/trabajo.jpg" alt="Me" style="width:100%">
+    </div>
+  </div>
+
+  <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+    <h4><b>About Me</b></h4>
+    <p>Knowledge in Front End Web Development and Responsive Web Design. Administration and design SQL databases. ETL technology design and maintenance.
+      <br>
+      Big data learning, Web Back End development and development Android and IOS native and hybrid mobile applications.
+      <br>
+      Object oriented programming Java and Java Script, programming micro controllers and microprocessors. Basic knowledge in IT support and office media management.
+      <br>
+      Implementation energy efficiency technologies, renewable energy and project management. Use programming languages ​​used in data science, such as Python, Matlab and R. English A2</p>
+    <hr>
+    
+    <h4>Technical Skills</h4>
+    <!-- Progress bars / Skills -->
+    <p>Front End Web Development</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:90%">90%</div>
+    </div>
+    <p>Full Stack Web Development</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:80%">80%</div>
+    </div>
+    <p>HTML, CSS, JS and SASS Preprocessor</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:70%">70%</div>
+    </div>
+    <p>Bootstrap, Foundation, Materialize and 3W CSS Frameworks </p>
+    <div class="w3-grey">
+      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:70%">70%</div>
+    </div>
+    <p>SQL, MySQL, PostgreSQL and Oracle Data Bases</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:60%">60%</div>
+    </div>
+    <p>
+      <button class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom">
+        <a href="hdv/hdv santiago mejia.docx" download="CurriculumSantaigoM.docx"><i class="fa fa-download w3-margin-right"></i>Download Resume</a>
+      </button>
+    </p>
+    <hr>
+    
+    <h4>How much I charge</h4>
+    <!-- Pricing Tables -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-third w3-margin-bottom">
+        <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-black w3-xlarge w3-padding-32">Basic</li>
+          <li class="w3-padding-16">3 Web Design</li>
+          <li class="w3-padding-16">3 Free Subdomains</li>
+          <li class="w3-padding-16">15 Information Items</li>
+          <li class="w3-padding-16">Mail and WathsAp Support</li>
+          <li class="w3-padding-16">
+            <h2>COL$ 100.000</h2>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-teal w3-padding-large w3-hover-black">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+      
+      <div class="w3-third w3-margin-bottom">
+        <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-teal w3-xlarge w3-padding-32">Pro</li>
+          <li class="w3-padding-16">7 Web Design</li>
+          <li class="w3-padding-16">2 Domains and 5 Subdomains</li>
+          <li class="w3-padding-16">50GB Storage</li>
+          <li class="w3-padding-16">Endless Support</li>
+          <li class="w3-padding-16">
+            <h2>COL$ 300.000</h2>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-teal w3-padding-large w3-hover-black">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+      
+      <div class="w3-third">
+        <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-black w3-xlarge w3-padding-32">Premium</li>
+          <li class="w3-padding-16">7 Web Design</li>
+          <li class="w3-padding-16">2 Domains and 5 Subdomains</li>
+          <li class="w3-padding-16">Unlimited Storage</li>
+          <li class="w3-padding-16">Endless Support</li>
+          <li class="w3-padding-16">
+            <h2>COL$ 500.000</h2>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-teal w3-padding-large w3-hover-black">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-large w3-grey">
+    <h4 id="contact"><b>Contact Me</b></h4>
+    <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
+      <div class="w3-third w3-dark-grey">
+        <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
+        <p>santiagomejiad19@hotmail.com</p>
+      </div>
+      <div class="w3-third w3-teal">
+        <p><i class="fa fa-map-marker w3-xxlarge w3-text-light-grey"></i></p>
+        <p>Bogota DC, COL</p>
+      </div>
+      <div class="w3-third w3-dark-grey">
+        <p><i class="fa fa-phone w3-xxlarge w3-text-light-grey"></i></p>
+        <p>3222115185</p>
+      </div>
+    </div>
+    <hr class="w3-opacity">
+    <form action="/action_page.php" target="_blank">
+      <div class="w3-section">
+        <label>Name</label>
+        <input class="w3-input w3-border" type="text" name="Name" required>
+      </div>
+      <div class="w3-section">
+        <label>Email</label>
+        <input class="w3-input w3-border" type="text" name="Email" required>
+      </div>
+      <div class="w3-section">
+        <label>Message</label>
+        <input class="w3-input w3-border" type="text" name="Message" required>
+      </div>
+      <button type="submit" class="w3-button w3-black w3-margin-bottom"><i class="fa fa-paper-plane w3-margin-right"></i>Send Message</button>
+    </form>
+  </div>
+
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-32 w3-dark-grey">
+  <div class="w3-row-padding">
+    <div class="w3-third">
+      <h3>FOOTER</h3>
+      <p>Researching, Designing and Developing the Future.</p>
+    </div>
+  
+    <div class="w3-third">
+      <h3>BLOG POSTS</h3>
+      <ul class="w3-ul w3-hoverable">
+        <li class="w3-padding-16">
+          <img src="img/img19.jpg" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Mechatronics Actuality</span><br>
+          <span>Read the most important notices and tips in world mechatronics</span>
+        </li>
+        <li class="w3-padding-16">
+          <img src="img/img20.jpg" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Web Development Tech.</span><br>
+          <span>          <span class="w3-large">It's time to program with the best technologies</span><br>
+        </span>
+        </li> 
+        <li class="w3-padding-16">
+          <img src="img/img21.jpg" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">League Of Leyends</span><br>
+          <span>What you need to know about the global gaming phenomenon ..lol..</span>
+        </li> 
+      </ul>
+    </div>
+
+    <div class="w3-third">
+      <h3>POPULAR TAGS</h3>
+      <p>
+        <span class="w3-tag w3-black w3-margin-bottom">Travel</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">New York</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">London</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">IKEA</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">NORWAY</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">DIY</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">Ideas</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Baby</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Family</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">News</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Clothing</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Shopping</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">Sports</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Games</span>
+      </p>
+    </div>
+
+  </div>
+  </footer>
+  
+  <div class="w3-black w3-center w3-padding-24">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></div>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+</body>
+</html>
